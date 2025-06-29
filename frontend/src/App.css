@@ -1,0 +1,130 @@
+body {
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 2rem auto;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+h1 {
+  color: #1a365d;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+p {
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.prefs-form {
+  margin-bottom: 2rem;
+  background: #f7fafc;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+.prefs-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.prefs-label {
+  background: #e2e8f0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.prefs-label input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+.prefs-label:hover {
+  background: #cbd5e1;
+}
+
+button[type="submit"] {
+  padding: 0.6rem 2rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: #1e40af;
+  box-shadow: 0 4px 16px rgba(37,99,235,0.15);
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #1a365d;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #f7fafc;
+  margin: 1rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  color: #333;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+}
+
+li:hover {
+  box-shadow: 0 4px 16px rgba(37,99,235,0.10);
+  transform: translateY(-2px) scale(1.01);
+}
+
+.score {
+  color: #059669;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 0.5em;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .prefs-form {
+    padding: 0.5rem 0.5rem;
+  }
+  li {
+    padding: 1rem 0.7rem;
+  }
+}
