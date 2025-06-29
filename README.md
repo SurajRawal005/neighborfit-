@@ -39,3 +39,8 @@ People want to find neighborhoods that match their lifestyle (e.g., family-frien
 - Users select lifestyle preferences (e.g., “Modern”, “Parks”).
 - The backend scores each neighborhood: +1 for each matching keyword in the neighborhood’s lifestyle.
 - Results are sorted by match score and shown to the user.
+
+
+## Live Demo
+
+[NeighborFit Deployed App](https://neighborfit-gzmw.vercel.app)
