@@ -29,7 +29,7 @@ People want to find neighborhoods that match their lifestyle (e.g., family-frien
 ### Matching Results
 ![Matching Results](docs/screenshot_result2.png)
 
-### Matching Results
+### Neighbor Dataset
 ![Matching Results](docs/Screenshot_dataset.png)
 
 
