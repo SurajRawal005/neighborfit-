@@ -23,11 +23,14 @@ People want to find neighborhoods that match their lifestyle (e.g., family-frien
 
 ## Screenshots
 
-### Home Page
+### Matching Results
 ![Matching Results](docs/screenshot_result1.png)
 
 ### Matching Results
 ![Matching Results](docs/screenshot_result2.png)
+
+### Matching Results
+![Matching Results](docs/screenshot_dataset.png)
 
 
 
