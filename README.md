@@ -41,7 +41,3 @@ People want to find neighborhoods that match their lifestyle (e.g., family-frien
 - Results are sorted by match score and shown to the user.
 
 
-## Live Demo  
--frontend part Deployed(only)
-
-[NeighborFit Deployed App](https://neighborfit-gzmw.vercel.app)
